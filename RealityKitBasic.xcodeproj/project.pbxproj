@@ -15,6 +15,9 @@
 		437082D424E48123006C0E6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437082D224E48123006C0E6C /* LaunchScreen.storyboard */; };
 		437082DF24E48124006C0E6C /* RealityKitBasicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437082DE24E48124006C0E6C /* RealityKitBasicTests.swift */; };
 		437082EA24E48124006C0E6C /* RealityKitBasicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437082E924E48124006C0E6C /* RealityKitBasicUITests.swift */; };
+		437B0C4824EC75AA0006A74F /* toy_robot_vintage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 437B0C4724EC75AA0006A74F /* toy_robot_vintage.usdz */; };
+		437B0C4A24EC77310006A74F /* Np.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 437B0C4924EC77310006A74F /* Np.rcproject */; };
+		437B0C4D24EC90700006A74F /* BruhWalk.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 437B0C4C24EC90700006A74F /* BruhWalk.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,11 @@
 		437082E524E48124006C0E6C /* RealityKitBasicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealityKitBasicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		437082E924E48124006C0E6C /* RealityKitBasicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityKitBasicUITests.swift; sourceTree = "<group>"; };
 		437082EB24E48124006C0E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		437B0C4724EC75AA0006A74F /* toy_robot_vintage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_robot_vintage.usdz; path = ../../../../Downloads/toy_robot_vintage.usdz; sourceTree = "<group>"; };
+		437B0C4924EC77310006A74F /* Np.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = Np.rcproject; path = ../../../../Downloads/Np.rcproject; sourceTree = "<group>"; };
+		437B0C4B24EC895F0006A74F /* lol.reality */ = {isa = PBXFileReference; lastKnownFileType = file; name = lol.reality; path = ../../../../Downloads/lol.reality; sourceTree = "<group>"; };
+		437B0C4C24EC90700006A74F /* BruhWalk.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = BruhWalk.rcproject; path = ../../../../Downloads/BruhWalk.rcproject; sourceTree = "<group>"; };
+		439D315624EF18C300F585BB /* BruhWalk3.reality */ = {isa = PBXFileReference; lastKnownFileType = file; name = BruhWalk3.reality; path = ../../../../Downloads/BruhWalk3.reality; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,11 @@
 			children = (
 				437082C724E4811C006C0E6C /* AppDelegate.swift */,
 				437082C924E4811C006C0E6C /* ViewController.swift */,
+				437B0C4B24EC895F0006A74F /* lol.reality */,
+				439D315624EF18C300F585BB /* BruhWalk3.reality */,
+				437B0C4724EC75AA0006A74F /* toy_robot_vintage.usdz */,
+				437B0C4C24EC90700006A74F /* BruhWalk.rcproject */,
+				437B0C4924EC77310006A74F /* Np.rcproject */,
 				437082CB24E4811C006C0E6C /* Experience.rcproject */,
 				437082CD24E4811C006C0E6C /* Main.storyboard */,
 				437082D024E48123006C0E6C /* Assets.xcassets */,
@@ -232,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				437B0C4824EC75AA0006A74F /* toy_robot_vintage.usdz in Resources */,
 				437082D424E48123006C0E6C /* LaunchScreen.storyboard in Resources */,
 				437082D124E48123006C0E6C /* Assets.xcassets in Resources */,
 				437082CF24E4811C006C0E6C /* Main.storyboard in Resources */,
@@ -260,8 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				437082CA24E4811C006C0E6C /* ViewController.swift in Sources */,
+				437B0C4A24EC77310006A74F /* Np.rcproject in Sources */,
 				437082C824E4811C006C0E6C /* AppDelegate.swift in Sources */,
 				437082CC24E4811C006C0E6C /* Experience.rcproject in Sources */,
+				437B0C4D24EC90700006A74F /* BruhWalk.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
