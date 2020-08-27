@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     /*
     override func viewDidLoad() {
         super.viewDidLoad()
-        let entity = try! ModelEntity.loadModel(named: "toy_robot_vintage")
+        let entity = try! ModelEntity.loadModel(named: "toy_ _vintage")
         
         //Add model to anchor entity
         let anchorEntity = AnchorEntity(plane: .horizontal)
@@ -31,6 +31,7 @@ class ViewController: UIViewController {
     }
     */
     
+    //@IBOutlet var imageStack: UIStackView!
     
     //When doing advanced applications, you want to delete advanced ar applications
     override func viewDidAppear(_ animated: Bool) {
